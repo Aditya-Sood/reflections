@@ -1,0 +1,50 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+	'diff' gives all the differences between the two files. Since the code was working before, thus it was
+	most likely that an erroneous change to the content was the bug - which was found by combing the 
+	hanges for the same.
+
+
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+	Can easily revert to a previous working version	whenever needed
+	Find typos easily
+
+
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+	Pros:	Each commit can correspond to a logical change/purpose to the content
+			Ability to set commits on appropriately sized changes (Not too much or too less)
+			Control on the total number of versions created
+
+	Cons:	Can forget to make commits
+
+
+	
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+	Git is designed for implementing version control for software projects, which consist of multiple
+	related files. As a consequence, a logical change to the 'project' may involve changes to more than one
+	file - Which should be bunched together as part of a single commit.
+
+	Google Docs generally works on mutually independant files.
+
+
+
+How can you use the commands git log and git diff to view the history of files?
+	git log gives the log of commits (and changes per commit can be obtained from using --stat flag)
+
+	git diff gives the differences between two commits
+
+
+
+How might using version control make you more confident to make changes that could break something?
+	Because it's assured that a working version is saved, which one can easily revert back to incase anything breaks while working on the new commit.
+
+
+
+Now that you have your workspace set up, what do you want to try using Git for?
+	Basically how working on a Git repository differs from working on a regular directory of the same
+	content.
+	
+
