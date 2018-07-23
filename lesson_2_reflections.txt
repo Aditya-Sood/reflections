@@ -17,4 +17,21 @@ How can you use the staging area to make sure you have one commit per logical ch
 
 	The staging area allows you to pick and choose files whose updates are to be bundled together as a
 	single commit. So even if you've made more than one logical change to the files in the working
-	directory, the staging area allows you to selectively pick the ones for each individual commit.	
+	directory, the staging area allows you to selectively pick the ones for each individual commit.
+
+
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+	Introducing experimental features or changes to the code base, which need not necessarily be introduced in the final code base. Branches allow you to track these changes separately.
+
+
+
+How do the diagrams help you visualize the branch structure?
+
+	Clearly specify the common ancestor of the branches in the project.
+
+
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+	We obtain a single commit resulting from merging files from the two commits, with the currently checked out branch getting extended to this new commit.
+	Because it is the merging of two commits.
