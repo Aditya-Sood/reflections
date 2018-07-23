@@ -5,4 +5,16 @@ What happens when you initialize a repository? Why do you need to do it?
 
 
 
-	
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+	It is the intermediate between the two, where files corresponding to a single commit are brought together before being bunched into a single commit.
+
+	Allows you to bunch files corresponding to a particular commit together.
+
+
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+	The staging area allows you to pick and choose files whose updates are to be bundled together as a
+	single commit. So even if you've made more than one logical change to the files in the working
+	directory, the staging area allows you to selectively pick the ones for each individual commit.	
