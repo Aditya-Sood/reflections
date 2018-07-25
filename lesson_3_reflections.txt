@@ -1,3 +1,45 @@
 When would you want to use a remote repository rather than keeping all your work local?
+
   1) When collaborating with other people or working on the same project from multiple devices
   2) To have a back-up of the repository
+
+
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+
+	Maybe wish to keep different versions of the same branch on the local repo until you decide how to
+	manually update the repos.
+
+
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+	
+	Clone - Copies a repository (remote or local) onto the local system
+	Fork - Copies someone else's GitHub repository and adds it as a part of your GitHub user account
+	Branches - Creates an off-shoot commit, in situations such as creating a feature or fixing bugs
+
+
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+	For projects with a large number of commits, this makes it much easier to locate the commit upto which
+	both the local and remote repositories are IDENTICAL, starting at the initial commit.
+
+
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+	Without Git, one would have to save each version of the project separately, leading to multiple directories, and a lot of redundant data causing memory wastage.
+
+	Without GitHub, would have to resort to sending project zip files over email, which will be a lot more tedious and repetitive.
+
+	Collaborating will be harder - Merge conflicts and pull requests will be a major problem.
+
+
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+	When working on a feature or fixing a bug when it's likely that the intermediary work will break the
+	project, then in those situations it's better to work on those changes on a separate branch.
+	Sure, there's the overhead of incorporating the updates that the master branch has undergone on the
+	remote, but the benefit of not breaking production code makes it worth it.
+
+	Working directly on the master is more useful when only one person is working on the project, and the
+	updates to the master are being pushed only after thorough testing. In this case, there isn't the overhead of incorporating the changes to the master in another branch before merging the two.
